@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator Mini Project using Html CSS & Javascript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="inputBox">
+      <h2>Random Password Generator</h2>
+      <input
+        type="text"
+        name=""
+        placeholder="Create Password"
+        id="password"
+        readonly
+      />
+      <img
+        src="./img/icon-clipboard-512.webp"
+        alt="copy to clip board"
+        class="copy"
+        onclick="copyPassword();"
+      />
+      <div id="btn" onclick="getPassword();">Generate Password</div>
+    </div>
+
+    <div class="alertbox"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
