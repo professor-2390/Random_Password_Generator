@@ -4,5 +4,3 @@ Random password generato using JavaScript You can generate and copy password
 - Javascript
 - html
 - css
-## Developer
-- Sakib
